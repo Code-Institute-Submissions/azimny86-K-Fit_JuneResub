@@ -8,7 +8,7 @@ Using HTML ,CSS this website gives users information about K-fit Dojo , MMA Gym 
 give users information and general information about MMA gym
 <br>
 
-## UX
+## User Experience (UX)
 
 
 UX for this website it's written around advertising and providing information for potential new members.
@@ -16,6 +16,34 @@ Users will be moving around pages with basic information about basic info about 
 Carrying on down the page user will see a social media of K-Fit.
 <br>
 
+#User stories
+<ul>
+    <li>First Time Visitor Goals</li>
+    <ul>
+        <li>As a first time user, you will have basic information about the gym and generally, what is MMA in general.</li>
+        <li>As a first time user, you will be able to easy and intuitively navigate around content of website.</li>
+        <li>As a first time user, you will have simple access to our social media.</li>
+    </ul>
+    <li>Returning Visitor Goals</li>
+    <ul>
+        <li>As a return user, you will find a Information about coach and a fighters from gym</li>
+        <li>As a return user, you will find as a question about gym and how to start participate in class</li>
+    </ul>
+    <li>Frequent User Goals</li>
+    <ul>
+        <li>As a Frequent User, you will want to find any change to timetable</li>
+        <ul><li>Two main colors on a website it's a pink and gray color from K-fit Logo</li></ul>
+        
+    </ul>
+</ul>
+
+# Design
+
+<ul>
+    <li>Colors used</li>
+    <ul><li>Two colours used are pink and grey form K-Fid Dojo Logo</li></ul>
+</ul>
+  
 ## Features
 
 
@@ -94,19 +122,19 @@ Languages use in this project
     The webpage is hosted using GitHub, for right deployed on GitHub a file need to my name index.html
 <br>
 
-## Credidts
+## Credits
 
-## Content
-
-
-All content it's written by myself about K-Fit Dojo MMA gym.
+# Content
 
 
-## Media
+All content it's written by developer about K-Fit Dojo MMA gym.
+
+
+# Media
 
 
 Pictures are taken from the Facebook page of K-Fit Dojo (https://www.facebook.com/pages/category/Martial-Arts-School/K-FIT-Fitness-Dojo-2118288294883801/). 
 
 Video with interviews with coaches and fighters are taken from Youtube of K-fit Dojo (https://www.youtube.com/channel/UCLbXSqImkuPfYEdYyjJwRDw).
 
-All of picters and intervis are taken with permisson owenr adn Head Coch of K-Fit Dojo.
+All of picters and intervis are taken with permisson of owener and Head Coch of K-Fit Dojo.
