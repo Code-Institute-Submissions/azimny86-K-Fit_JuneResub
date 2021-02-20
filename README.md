@@ -16,7 +16,7 @@ Users will be moving around pages with basic information about basic info about 
 Carrying on down the page user will see a social media of K-Fit.
 <br>
 
-#User stories
+## User stories
 <ul>
     <li>First Time Visitor Goals</li>
     <ul>
@@ -34,7 +34,7 @@ Carrying on down the page user will see a social media of K-Fit.
         <li>As a Frequent User, you will want to find any change to timetable</li>
         <ul><li>Two main colors on a website it's a pink and gray color from K-fit Logo</li></ul>
         
-    </ul>
+    
 </ul>
 
 # Design
