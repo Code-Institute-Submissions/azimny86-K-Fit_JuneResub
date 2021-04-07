@@ -100,12 +100,114 @@ body {
   float: right;
 }
 
+      /*    SLIDESHOW   */
+ .slideshow {
+  max-width: 100%;
+  margin: 110px 0 0 0;
+  display: inline-table;
+      }
+      #slideshow-left {
+        text-align: center;
+        overflow: hidden;
+        height: 510px;
+        width: 728px;
+        float: left;
+        border: 2px solid #a6178f;
+      }
+      
+      #slideshow-right {
+        text-align: center;
+        overflow: hidden;
+        height: 510px;
+        width: 728px;
+        float: right;
+        border: 2px solid #a6178f;
+      }
+      
+      .slide-wrapper {
+        width: 2912px;
+        animation: slide 20s ease infinite;
+      }
+      
+      .slide-wrapper-right{
+          width: 2912px;
+          animation: slide 20s ease infinite;
+      }
+      .slide {
+        float: left;
+        height: 510px;
+        width: 728px;
+      }
+      
+      .slide:nth-child(1) {
+        background-image: url("/images/slides/1.jpg");
+        background-repeat: round;
+      }
+      
+      .slide:nth-child(2) {
+        background-image: url("/images/slides/2.jpg");
+        background-repeat: round;
+      }
+      
+      .slide:nth-child(3) {
+        background-image: url("/images/slides/3.jpg");
+        background-repeat: round;
+      }
+      
+      .slide:nth-child(4) {
+        background-image: url("/images/slides/4.jpg");
+        background-repeat: round;
+      }
+      
+      .slide-right {
+          float: right;
+          height: 510px;
+          width: 728px;
+      }
+      .slide-right:nth-child(1) {
+        background-image: url("/images/slides/5.jpg");
+        background-repeat: round;
+      }
+      .slide-right:nth-child(2) {
+        background-image: url("/images/slides/6.jpg");
+        background-repeat: round;
+      }
+      .slide-right:nth-child(3) {
+        background-image: url("/images/slides/7.jpg");
+        background-repeat: round;
+      }
+      .slide-right:nth-child(4) {
+        background-image: url("/images/slides/8.jpg");
+        background-repeat: round;
+      
+      }
+      
+      .about-gym {
+          color: #a6178f;
+          background-color: #fafafa;
+          padding-top: 51px;
+          width: 436px;
+          float: left;
+          height: 510px;
+          text-align: center;
+          font-size: 26px;
+          border: 2px solid #a6178f;
+      }
+      @-webkit-keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -728px;}
+        50% {margin-left: -728px;}
+        60% {margin-left: -1456px;}
+        70% {margin-left: -1456px;}
+        80% {margin-left: -2184px;}
+        90% {margin-left: -2184px;}
+      }
+      
 /*      home    */
 
 
 .info {
   position: relative;
-  top: 125px;
   padding: 0px 15px 0 15px;
   font-weight: 400;
 }
@@ -115,15 +217,16 @@ body {
   letter-spacing: 2px;
   padding-top: 15px;
   padding-bottom: 15px;
-  border: 2px black solid;
   margin-top: 30px;
   padding-left: 10px;
   font-weight: 400;
   padding-left: 25px;
 }
 
-.welcome p {
+.welcome h1 {
   font-family: 'Roboto', sans-serif;
+  margin: 10px 0px 50px 25%;
+  font-weight: bolder;
 }
 
 .welcome iframe {
@@ -136,7 +239,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 0 15px 4px 15px;
-  border: 2px black solid;
   display: block;
   margin-top: 55px;
   margin-bottom: 133px;
