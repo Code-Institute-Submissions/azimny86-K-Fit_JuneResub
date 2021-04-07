@@ -261,6 +261,12 @@ body {
 
 }
 
+.about p {
+  font-weight: 600;
+  padding: 25px;
+  text-align: center;
+}
+
 .about hr {
   display: block;
   margin-top: 0.5em;
@@ -289,14 +295,22 @@ body {
   width: 20%;
   border-radius: 20%;
   border: 5px #a6178f solid;
-  margin: 0 0 0 40%;
+  margin: 5% 0 0 40%;
+}
+
+.fighters hr {
+  border-top: 2px solid #a6178f;
 }
 
 .fighters p {
-  text-align: center;
   font-weight: 600;
+  padding: 25px;
+  text-align: center;
 }
 
+.fighters iframe {
+  margin: 0 0 0 40%;
+}
 
 /*      timetabel    */
 
@@ -328,7 +342,6 @@ body {
 }
 
 .explanation {
-  border: 5px #a6178f solid;
   background-color: #fafafa;
   color: #3f3f3f;
   margin-top: 30px;
@@ -345,6 +358,10 @@ body {
 
 .explanation h5 {
   text-transform: uppercase;
+}
+
+.explanation hr {
+  border-top: 2px #a6178f solid;
 }
 
 /*      contact    */
