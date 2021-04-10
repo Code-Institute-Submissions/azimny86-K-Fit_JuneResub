@@ -56,12 +56,14 @@ I'm thankful for you all visiting my project. If you have any suggestions, quest
 **************************************************************************************************************************
 
 ### Icons
-#### I made my decision to implement icons , from a - __[Font Awesome](https://fontawesome.com/)__ . Selected icons assist and visual way to help you navigate the website.
-#### Navbar will transform to a hamburger icon to meke easier to navigate on mobile devices
+
+ I made my decision to implement icons , from a  __[Font Awesome](https://fontawesome.com/)__ . Selected icons assist and visual way to help you navigate the website.
+ Navbar will transform to a hamburger icon to meke easier to navigate on mobile devices
 
 ### Colors
-#### As I told before , colar are based on colors used on K-fit logo. I didn't want to use too much color on the web page :
+ As I told before , colar are based on colors used on K-fit logo. I didn't want to use too much color on the web page :
 
+![Color Palette](/workspace/K-Fit/images/wireframes/Color Hunt Palette 276531.png)
 * #3f3f3f: This color will be used for the navbar it will be separated from the rest of the content even on the page  
 * #a6187f: This color will be used for the border and a color of content on site.
 * #fafafa: This color it's use primary for background-color. Everything will separate nicely on it  
@@ -69,7 +71,7 @@ I'm thankful for you all visiting my project. If you have any suggestions, quest
 ___
 
 ## Wireframes
-I use a - __[Balsamiq](https://balsamiq.cloud/)__ - to make wireframes for website , first I created first a desktop version and after that I make a tablet and mobile . 
+I use a  __[Balsamiq](https://balsamiq.cloud/)__  to make wireframes for website , first I created first a desktop version and after that I make a tablet and mobile . 
 
 You can find my mock-ups below:
 
@@ -156,170 +158,17 @@ ___
 
 ## Testing
 
+The website was tested with:
+* - __[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)__ 
+* - __[W3C HTML Validation Service](https://validator.w3.org/)__
 ### Navigation bar
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-This website it's make as a 1 Milestone project for Code Institute
-
-Website it's a webpage for a MMA Gym K-fit Dojo based in Athenry co. Galway
-
-Using HTML ,CSS this website gives users information about K-fit Dojo , MMA Gym base in Athenry co. Galway . A clear and engaging website
-give users information and general information about MMA gym
-<br>
-
-## User Experience (UX)
-
-
-UX for this website it's written around advertising and providing information for potential new members.
-Users will be moving around pages with basic information about basic info about MMA ,coaches,fighters ,timetable and location  .
-Carrying on down the page user will see a social media of K-Fit.
-<br>
-
-## User stories
-<ul>
-    <li>First Time Visitor Goals</li>
-    <ul>
-        <li>As a first time user, you will have basic information about the gym and generally, what is MMA in general.</li>
-        <li>As a first time user, you will be able to easy and intuitively navigate around content of website.</li>
-        <li>As a first time user, you will have simple access to our social media.</li>
-    </ul>
-    <li>Returning Visitor Goals</li>
-    <ul>
-        <li>As a return user, you will find a Information about coach and a fighters from gym</li>
-        <li>As a return user, you will find as a question about gym and how to start participate in class</li>
-    </ul>
-    <li>Frequent User Goals</li>
-    <ul>
-        <li>As a Frequent User, you will want to find any change to timetable</li>
-        <ul><li>Two main colors on a website it's a pink and gray color from K-fit Logo</li></ul>
-        
-    
-</ul>
-
-# Design
-
-<ul>
-    <li>Colors used</li>
-    <ul><li>Two colours used are pink and grey form K-Fid Dojo Logo</li></ul>
-</ul>
-  
-## Features
-
-
-- This project is made around a clear and simple interface. Top of every page will have the logo of gym and navbar with link implements to help to move around the website.
-
-- Each page on top have a responsive navigation bar 
-with logo.
-
-- On home page users will get information about history of gym and what it's a MMA.  
-
-
-- second page will have informations , photos and interviews with the Head coach and fighters.
-
-
-
-- The second page will give users a timetable witch type of classes and time they are held. Under table  user will see an explanation of all activities
-
-
-- The last page will have information about the location of gym and a question form for new members 
-
-
-- On the bottom of every page will by a footer that will have 3 sections call us with a phone number, a visit us with address of gym and  third section with links for gym social media and email 
-<br>
-
-## Features Left to Implement
-
-
-1
-- Function of booking places in classes via the time timetable
-
-2
-- Shop section selling merchandising 
-(gloves, shinguards,rashguards,hoodies)
-<br>
-
-## Technologies Used
-
-
-Languages use in this project
-
-- HTML
-     The mainframe of this project is built with HTML 
-
-- CSS
-    CSS its use in this project for styling
-
-- Markdown
-    Project use markdown for writing the readme page,
-
-- Skeleton
-    This project uses Skeleton (and classes imported from Skeleton) as a framework to assist in page layout, navigation, modal and carousel features.
-    http://getskeleton.com/
-
-- Google Fonts
-    Font used on website "Roboto" and "Russo One" bouts fonts imported from Google fonts 
-     https://fonts.google.com/
-
-- FontAwesome
-    The social link icons for Facebook, Twitter, and youtube (in the footer) were imported from FontAwesome.
-    https://fontawesome.com/
-
-## Testing
-
-
-    Webpage was tested on :
-    - https://validator.w3.org/
-
-    - https://jigsaw.w3.org/css-validator/
-
-    - lighthouse tool build into Chrom Web browser
-<br>
-
-## Deployment
-
-
-    The webpage is hosted using GitHub, for right deployed on GitHub a file need to my name index.html
-<br>
-
-## Credits
-
-# Content
-
-
-All content it's written by developer about K-Fit Dojo MMA gym.
-
-
-# Media
-
+___
+## Content
 
 Pictures are taken from the Facebook page of K-Fit Dojo (https://www.facebook.com/pages/category/Martial-Arts-School/K-FIT-Fitness-Dojo-2118288294883801/). 
 
 Video with interviews with coaches and fighters are taken from Youtube of K-fit Dojo (https://www.youtube.com/channel/UCLbXSqImkuPfYEdYyjJwRDw).
 
-All of picters and intervis are taken with permisson of owener and Head Coch of K-Fit Dojo.
+All of the pictures and interviews are taken with the permission of owner and Head Coch of K-Fit Dojo.
+
