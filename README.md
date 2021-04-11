@@ -18,11 +18,11 @@ I'm thankful for you all visiting my project. If you have any suggestions, quest
 * As a user, I will have basic information about the gym and generally, what is MMA in general.
 * As a user, I will be able to easy and intuitively find information about the location 
 * As a user, I will be sending a contact form to the owner of the gym 
-* As a user, I will have access to all of the social media of the gym and they will open on new page 
+* As a user, I will have access to all of the social media of the gym and they will open on a new page 
 * As a user, I need to fill its proper place to train.
 * As a user, I want the website to be easy to navigate.
 * As a user, I want clear information about the hours of classes and what is going on in them.
-* As a user, I want to see information about fighters form Gym.
+* As a user, I want to see information about fighters from Gym.
 * As a user,  I expect that there are links to social media that open in separate tabs.
 
 <br/>
@@ -56,7 +56,7 @@ I'm thankful for you all visiting my project. If you have any suggestions, quest
 
 ## **Design Choices**
 
-Design choices was based took from the K-fit logo. I made all my design choices from colors use in the logo.
+Design choices were based took from the K-fit logo. I made all my design choices from colors use in the logo.
 
 <br/>
 
@@ -68,19 +68,19 @@ Design choices was based took from the K-fit logo. I made all my design choices 
 
 ## Icons
 
-I made my decision to implement icons , from a  __[Font Awesome](https://fontawesome.com/)__ .
-  Selected icons assist and visual way to help you navigate the website.Navbar will transform to a hamburger icon to meke easier to navigate on mobile devices.
+I made my decision to implement icons, from a  __[Font Awesome](https://fontawesome.com/)__ .
+  Selected icons assist and visual way to help you navigate the website. Navbar will transform into a hamburger icon to make it easier to navigate on mobile devices.
 
 <br/>
 
 ## Colors
 
-As I told before , colar are based on colors used on K-fit logo. You can see my color palette __[here](https://colorhunt.co/palette/277227)__. I didn't want to use too much color on the web page :
+As I told before,  I based on colors used on the K-fit logo. You can see my color palette __[here](https://colorhunt.co/palette/277227)__. I didn't want to use too much color on the web page :
 
 ![Color Scheme](images/wireframes/Color-Hunt-Palette276531.png)
 * #3f3f3f: This color will be used for the navbar it will be separated from the rest of the content even on the page  
-* #a6187f: This color will be used for the border and a color of content on site.
-* #fafafa: This color it's use primary for background-color. Everything will separate nicely on it  
+* #a6187f: This color will be used for the border and color of content on site.
+* #fafafa: This color is used primarily for background color. Everything will separate nicely on it  
 
 <br/>
 
@@ -90,7 +90,7 @@ ___
 <br/>
 
 ## **Wireframes**
-I use a  __[Balsamiq](https://balsamiq.cloud/)__  to make wireframes for website , first I created first a desktop version and after that I make a tablet and mobile . 
+I use a  __[Balsamiq](https://balsamiq.cloud/)__  to make wireframes for the website, I created first a desktop version and after that, I make a tablet and mobile. 
 
 You can find my mock-ups below:
 
@@ -106,13 +106,13 @@ ___
 <br/>
 
 #### **Navigation**
-I use a navbar on full width of the page. To make a navigate easily through the site, I implemented a sticky type for easy access to all of pages.
+I use a navbar on the full width of the page. To make a navigate easily through the site, I implemented a sticky type for easy access to all of the pages.
 This part will appear on every page of the site.
 
 <br/>
 
 #### Sliedshow
-I decided to create a two slide show with pictures from classes between them I have posted a brief description of our gym.
+I decided to create a two-slide show with pictures from classes between them I have posted a brief description of our gym.
 
 <br/>
 
@@ -133,7 +133,7 @@ On this page, the visitor can see a photo, a short description, and an interview
 <br/>
 
 #### Timetabel page
-In this part, you can find the timetable with an explanation of the classes and describe what criteria you need to meet in order to participate in them.
+In this part, you can find the timetable with an explanation of the classes and describe what criteria you need to meet to participate in them.
 
 <br/>
 
@@ -210,5 +210,5 @@ Pictures are taken from the Facebook page of  __[K-Fit Dojo](https://www.faceboo
 
 Video with interviews with coaches and fighters are taken from Youtube of K-fit Dojo __[K-Fit Dojo](https://www.youtube.com/channel/UCLbXSqImkuPfYEdYyjJwRDw)__.
 
-All of the pictures and interviews are taken with the permission of owner and Head Coch of K-Fit Dojo.
+All of the pictures and interviews are taken with the permission of the owner and Head Coch of K-Fit Dojo.
 
