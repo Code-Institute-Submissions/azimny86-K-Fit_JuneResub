@@ -1,4 +1,5 @@
 # **K-Fit Dojo MMA Gym**
+![ScrenClip](images/wireframes/ScreenClip.png)
 
 ## **Goal for this project**
 
