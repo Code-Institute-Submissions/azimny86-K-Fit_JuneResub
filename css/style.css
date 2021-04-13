@@ -25,7 +25,7 @@ body {
 
 .welcome {
   background-color: #fafafa;
-  color: #a6178f;
+  color: #3f3f3f;
 }
 
 .info-k-fit {
@@ -34,7 +34,7 @@ body {
 
 .mma-info {
   background-color: #fafafa;
-  color: #a6178f;
+  color: #3f3f3f;
 }
 
 .info {
@@ -55,6 +55,7 @@ body {
 
 /*      NAVBAR      */
 
+/*    Mobile Navbar   */
 #menuToggle
 {
   display: block;
@@ -90,15 +91,13 @@ body {
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
+/*    hamburger   */
 #menuToggle span
 {
   display: block;
@@ -128,10 +127,7 @@ body {
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+/*    Transform all the slices of hamburger into a crossmark.   */
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -139,27 +135,20 @@ body {
   background: #3f3f3f;
 }
 
-/*
- * But let's hide the middle one.
- */
+/*    But let's hide the middle one.    */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+/*    Ohyeah and the last one should go the other direction   */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+/*    Make this absolute positioned at the top left of the screen   */
 #menu
 {
   position: fixed;
@@ -170,11 +159,8 @@ body {
   background: #3f3f3f;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
@@ -184,9 +170,7 @@ body {
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
+/*    And let's slide it in from the left   */
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -208,7 +192,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #fafafa;
   color: #a6178f;
 }
 
@@ -224,6 +208,47 @@ body {
   float: left;
 }
 
+/*    Desktop and Tablet  Navbar    */
+
+#navbar {
+  overflow: hidden;
+  background-color: #3f3f3f;
+}
+
+#navbar ul {
+  list-style: none;
+}
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+#navbar a:hover{
+  color: #a6178f;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* top padding  */
+.sticky + .content {
+  padding-top: 60px;
+}
+
       /*    SLIDESHOW   */
  .slideshow {
   max-width: 100%;
@@ -234,6 +259,7 @@ body {
  text-align: center;
  overflow: hidden;
  height: 510px;
+ margin:0 0 ;
  width: 728px;
  float: left;
  border: 2px solid #a6178f;
@@ -241,6 +267,7 @@ body {
       
  #slideshow-right {
  text-align: center;
+ overflow: hidden;
  height: 510px;
  width: 728px;
  float: right;
@@ -309,10 +336,10 @@ body {
       }
       
 .about-gym {
- color: #a6178f;
+ color: #3f3f3f;
  background-color: #fafafa;
- padding-top: 51px;
- width: 436px;
+ padding-top: 222px;
+ width: 447px;
  float: left;
  height: 510px;
  text-align: center;
@@ -354,13 +381,16 @@ body {
 .welcome h1 {
   font-family: 'Roboto', sans-serif;
   margin: 10px 0px 50px 25%;
-  font-weight: bolder;
+  font-weight: 900;
+  text-transform: capitalize;
 }
 
 .welcome iframe {
   align-items: center;
   padding-top: 15px;
   padding-bottom: 35px;
+  font-weight: bolder;
+  
 }
 
 .mma-info {
@@ -383,7 +413,8 @@ body {
 .about {
     margin-top: 8vw;
     text-align: center;
-
+    max-width: 80%;
+    margin-left: 193px;
 }
 
 .about p {
@@ -402,10 +433,6 @@ body {
   border-top: 3px solid #a6178f
 }
 
-
-.coach {
-  border-bottom: 5px #a6178f solid;
-}
 
 #coach {
   height: 400px;
@@ -434,7 +461,7 @@ body {
   padding: 25px;
   text-align: center;
   max-width: 80%;
-    margin-left: 180px;
+  margin-left: 13vw;
 }
 
 .fighters iframe {
@@ -508,9 +535,9 @@ body {
 
 .form {
   border: 5px #a6178f solid;
-  margin: 55px 25px 25px 25px;
+  margin: 55px 25px 25px 160px;
   text-align: center;
-  border-radius: 15px;
+  max-width: 83%;
 }
 
 .form:hover {
@@ -533,11 +560,11 @@ body {
 
 #subject {
   resize: horizontal;
-
+  max-width: 84%;
   width: 97vw;
+  margin-left: 141px;
   display: block;
   border: 5px #a6178f solid;
-  border-radius: 15px;
 }
 
 .message-box {
@@ -614,7 +641,8 @@ body {
   margin-left: 12vw;
   }
 .welcome h1 {
-  margin: 5vw 18vw;;
+  margin: 5vw 18vw;
+
 }
 .mma-info{
   margin-bottom: 6vw;
@@ -622,7 +650,7 @@ body {
 .call {
      display: none;
  }
-.topnav {
+ .desktop-nav {
   display: none;
 }
  .slideshow {
@@ -647,19 +675,20 @@ body {
   }
 .mma-info h1{
   margin: 3vw 32vw;
+  background-color: #a6178f;
 }
 .call {
  display: none;
  }
 
- .topnav {
+.desktop-nav {
   display: none;
 }
  .slideshow {
    display: none;
  }
  .fighters h1 {
-   margin: 0 4vw;
+  margin: 48px 815px;
  }
  .fighters h2 {
   margin: 0 40vw;
@@ -675,6 +704,9 @@ body {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+.mma-info h1 {
+    background-color: orange;
+  }
   .welcome iframe {
     width: 80vw;
     height: 60vh;
@@ -683,7 +715,7 @@ body {
  .call {
      display: none;
  }
- .topnav {
+ .desktop-nav {
   display: none;
 }
  .slideshow-left .about-gym {
@@ -713,6 +745,7 @@ body {
     float: none;
     display: block;
     text-align: left;
+  
   }
 
 
@@ -723,9 +756,15 @@ body {
   width: 80vw;
   height: 80vh;
   }
-  #menuToggle {
-    display: block;
+  .mma-info h1 {
+    background-color: brown;
   }
+.mobile-nav {
+    display: none;
+  }
+.desktop-nav{
+  display: block;
+}
 }
 
 /* Larger than Desktop HD */
@@ -734,5 +773,10 @@ body {
   width: 80vw;
   height: 80vh;
   }
-  
+  .mma-info h1 {
+    background-color: red;
+  }
+.slideshow {
+  display: flex;
+}
 }
