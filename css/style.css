@@ -61,9 +61,7 @@ body {
   position: fixed;
   top: 50px;
   left: 50px;
-  
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
@@ -71,14 +69,13 @@ body {
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
-  
+  color: #fafafa;
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #a6178f;
 }
 
 
@@ -109,7 +106,6 @@ body {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #a6178f;
   border-radius: 3px;
   
@@ -167,12 +163,11 @@ body {
 #menu
 {
   position: fixed;
-  width: 300px;
+  width: 211px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
-  background: #ededed;
+  background: #3f3f3f;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -345,7 +340,7 @@ body {
 }
 
 .welcome {
-  text-transform: uppercase;
+ 
   letter-spacing: 2px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -354,7 +349,6 @@ body {
   font-weight: 400;
   padding-left: 25px;
   border-radius: 1%;
-  border: 3px solid #a6178f;
 }
 
 .welcome h1 {
@@ -370,7 +364,6 @@ body {
 }
 
 .mma-info {
-  text-transform: uppercase;
   letter-spacing: 2px;
   padding: 15px 15px 4px 15px;
   display: block;
@@ -378,7 +371,7 @@ body {
   margin-bottom: 133px;
   padding-left: 25px;
   border-radius: 1%;
-  border: 3px solid #a6178f;
+
 }
 
 .mma-info p {
@@ -415,17 +408,19 @@ body {
 }
 
 #coach {
-  height: 13%;
-  width: 29%;
-  border-radius: 25%;
+  height: 400px;
+  width: 400px;
+  object-fit: fill;
+  border-radius: 48%;
   border: 5px #a6178f solid;
   margin: 0;
 }
 
 #fighters {
-  height: 13%;
-  width: 20%;
-  border-radius: 20%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  object-fit: fill;
   border: 5px #a6178f solid;
   margin: 5% 0 0 40%;
 }
@@ -438,6 +433,8 @@ body {
   font-weight: 600;
   padding: 25px;
   text-align: center;
+  max-width: 80%;
+    margin-left: 180px;
 }
 
 .fighters iframe {
@@ -479,7 +476,7 @@ body {
   margin-top: 30px;
   padding-top: 30px;
   text-align: left;
-  padding-left: 45px;
+  padding-left: 59px;
   margin: 25px;
   border-radius: 25px;
 }
@@ -617,7 +614,7 @@ body {
   margin-left: 12vw;
   }
 .welcome h1 {
-  margin: 6vw auto;;
+  margin: 5vw 18vw;;
 }
 .mma-info{
   margin-bottom: 6vw;
@@ -643,14 +640,16 @@ body {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  .welcome iframe {
-    width: 60vw;
-    height: 80vh;
-    margin-left: 1vw;
+.welcome iframe {
+  width: 60vw;
+  height: 80vh;
+  margin-left: 1vw;
   }
-
+.mma-info h1{
+  margin: 3vw 32vw;
+}
 .call {
-     display: none;
+ display: none;
  }
 
  .topnav {
@@ -659,6 +658,12 @@ body {
  .slideshow {
    display: none;
  }
+ .fighters h1 {
+   margin: 0 4vw;
+ }
+ .fighters h2 {
+  margin: 0 40vw;
+}
  .visit {
      display: none;
  }
