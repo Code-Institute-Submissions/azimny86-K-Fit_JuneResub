@@ -497,16 +497,29 @@ body {
   color: #3f3f3f;
 }
 
-.explanation {
+/*    Mobile timetabel*/
+.mobile-tabel{
+  margin: 85px auto;
+}
+.mobile-tabel thead {
+  border-bottom: 15px solid #a6178f;
+}
+.mobile-tabel th {
+  text-align: center;
+  padding: 2px;
+  background-color: #3f3f3f;
+  color: #fafafa;
+  border: 2px #a6178f solid;
+  font-weight: 600;
+  width: 100vw;
+  padding: 20px 20px 5px 20px;
+}
+
+.mobile-tabel th:hover {
   background-color: #fafafa;
   color: #3f3f3f;
-  margin-top: 30px;
-  padding-top: 30px;
-  text-align: left;
-  padding-left: 59px;
-  margin: 25px;
-  border-radius: 25px;
 }
+
 
 .explanation li {
   list-style: none;
@@ -656,7 +669,10 @@ body {
  .slideshow {
    display: none;
  }
- 
+ .timetabel {
+  display: none;
+}
+
  .visit {
      display: none;
  }
@@ -693,8 +709,14 @@ body {
  .fighters h2 {
   margin: 0 40vw;
 }
+.timetabel {
+  display: grid;
+}
+.mobile-tabel{
+  display: none;
+}
  .visit {
-     display: none;
+     display: grid;
  }
 
 .social {
@@ -721,12 +743,18 @@ body {
  .slideshow-left .about-gym {
    display: none;
  }
+ .mobile-tabel {
+  display: none;
+}
  .visit {
-     display: none;
+     display: grid;
  }
+.call {
+  display: grid;
 
+}
 .social {
-    display: contents;
+    display: grid;
 }
 .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -765,6 +793,19 @@ body {
 .desktop-nav{
   display: block;
 }
+.mobile-tabel {
+  display: none;
+}
+.visit {
+  display: grid;
+}
+.call {
+display: grid;
+
+}
+.social {
+ display: grid;
+}
 }
 
 /* Larger than Desktop HD */
@@ -778,5 +819,21 @@ body {
   }
 .slideshow {
   display: flex;
+}
+.mobile-tabel  {
+  display: none;
+}
+.visit {
+  display: grid;
+}
+.call {
+display: grid;
+
+}
+.social {
+ display: grid;
+}
+.footer {
+  display: grid;
 }
 }
