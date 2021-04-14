@@ -573,7 +573,7 @@ body {
 
 #subject {
   resize: horizontal;
-  max-width: 84%;
+  max-width: 86%;
   width: 97vw;
   margin-left: 141px;
   display: block;
@@ -602,7 +602,6 @@ body {
 /*      footer    */
 
 .footer {
-
   bottom: 0;
   width: 100vw;
   height: 167px;
@@ -624,6 +623,7 @@ body {
 }
 
 .social {
+  bottom: 0;
   width: 33%;
   display: inline;
   color: #fafafa;
@@ -647,9 +647,7 @@ body {
 
 /* Larger than mobile */
 @media (min-width: 320px) {
-body {
 
-}
 .welcome iframe {
   width: 61vw;
   height: 86vw;
@@ -672,16 +670,61 @@ body {
    display: none;
  }
  
-
+ .about{
+  margin-left: 33px;
+}
+#coach {
+  margin:  0 auto;
+  height: 55vw;
+  width: 55vw;
+}
+.coach {
+  margin: 155px 0;
+}
+.coach iframe {
+  width: 85vw;
+}
+#fighters {
+  height: 55vw;
+  width: 55vw;
+  margin: 0 81px;
+}
+.fighters iframe {
+  margin: 0 31px;
+  width: 85vw;
+}
+.desktop-nav{
+  display: none;
+}
 .explanation {
   min-width: 80%;
 }
+.form {
+  margin: 0 8vw;
+}
+.message-box {
+  margin: 0;
+}
+.message-box label {
+  margin: 5vw 0;
+}
+.message-box input {
+  margin: 5vw 20vw;
+}
+#subject {
+  margin: 0;
+}
+
  .visit {
      display: none;
  }
 
 .social {
-    display: contents;
+    display: flex;
+}
+
+.social-links {
+  margin: 8vw 0 ;
 }
 }
 
@@ -706,6 +749,7 @@ body {
  .slideshow {
    display: none;
  }
+
  .fighters h1 {
   margin: 48px 815px;
  }
