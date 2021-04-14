@@ -693,7 +693,7 @@ body {
   margin: 0 31px;
   width: 85vw;
 }
-.desktop-nav{
+.desktop-tabel{
   display: none;
 }
 .explanation {
@@ -726,6 +726,7 @@ body {
 .social-links {
   margin: 8vw 0 ;
 }
+
 }
 
 /* Larger than phablet */
@@ -739,6 +740,8 @@ body {
   margin: 3vw 32vw;
   background-color: #a6178f;
 }
+
+
 .call {
  display: none;
  }
@@ -759,9 +762,7 @@ body {
 .timetabel {
   display: grid;
 }
-.mobile-tabel{
-  display: none;
-}
+
  .visit {
      display: grid;
  }
@@ -773,9 +774,7 @@ body {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-.mma-info h1 {
-    background-color: orange;
-  }
+
   .welcome iframe {
     width: 80vw;
     height: 60vh;
@@ -790,16 +789,18 @@ body {
  .slideshow-left .about-gym {
    display: none;
  }
- .mobile-tabel {
+ .desktop-tabel {
   display: none;
-}
+ }
+
  .visit {
      display: grid;
  }
 .call {
   display: grid;
-
 }
+
+
 .social {
     display: grid;
 }
@@ -835,14 +836,18 @@ body {
   .mma-info h1 {
     background-color: brown;
   }
-.mobile-nav {
-    display: none;
-  }
+
+.mobile-nav{
+  display: none;
+}
 .desktop-nav{
-  display: block;
+  display: contents;
+}
+.timetabel h1 {
+  margin: 8vw 0;
 }
 .mobile-tabel {
-  display: none;
+  margin: 0 auto;
 }
 .visit {
   display: grid;
@@ -870,6 +875,9 @@ display: grid;
 }
 .mobile-tabel  {
   display: none;
+}
+.desktop-tabel {
+  display: contents;
 }
 .visit {
   display: grid;
