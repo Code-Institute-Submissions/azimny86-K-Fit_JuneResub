@@ -10,6 +10,7 @@ This MMA Gym based in Athenry it's a perfect spot to start and continue your jou
 I'm thankful for you all visiting my project. If you have any suggestions, questions or feedback feel free to reach out to me on GitHub.
 
 <br/>
+
 ---
 
 # **UX**
@@ -104,53 +105,55 @@ ___
 
 ## **Existing Features:**
 
-<br/>
+<br>
 
 #### **Navigation**
 I use a navbar on the full width of the page. To make a navigate easily through the site, I implemented a sticky type for easy access to all of the pages.
-This part will appear on every page of the site.
+This part will appear on every page of the site onle on devices with large screens .
 
-<br/>
+<br>
 
-#### Sliedshow
+#### **Sliedshow**
 I decided to create a two-slide show with pictures from classes between them I have posted a brief description of our gym.
+This part will appear on every page of the site onle on devices with large screens .
 
-<br/>
+<br>
 
-#### Welcome
+#### **Welcome**
 In this section I implement, you will find a brief description of the history of the club and our coach along with a short promotional video.
 
-<br/>
+<br>
 
-#### MMA-info
+#### **MMA-info**
 A short description and explanation of the components of the sport along with the history of MMA for first-time viewers to the website.
 
-<br/>
+<br>
 
-#### About page 
+#### **About page** 
 On this page, the visitor can see a photo, a short description, and an interview with our head trainer. You also like to implement photos and interviews with some of our fighters.
 
 
-<br/>
+<br>
 
-#### Timetabel page
+#### **Timetabel page**
 In this part, you can find the timetable with an explanation of the classes and describe what criteria you need to meet to participate in them.
+The timetable will change the size depending on the size of the screen on which it will be opened.
 
-<br/>
+<br>
 
-#### Contact page
+#### **Contact page**
 On this page, I placed an iframe of the location of the gym along with a form to ask a question to the site owner.
 
-<br/>
+<br>
 
-#### Footer
+#### **Footer**
 I included in the footer the telephone number (nonexistent) to the gym with the address and
 icons for all social media (Facebook, email, Instagram, Youtube).
-This part will appear on every page of the site.
+This part will appear on every page of the site.The footer will change the size depending on the size of the screen on which it will be opened.
 
-<br/>
+<br>
 
-<br/>
+<br>
 
 
 ## **Features to be implemented**
@@ -190,7 +193,7 @@ ___
 
 * - __[Fontawesome](https://fontawesome.com/)__ 
 * - __[Google Fonts](https://fonts.google.com/)__ 
-* - __[Bootstrap](https://getbootstrap.com/)__ 
+* - __[Skeleton](https://skeleton-framework.github.io/)__ 
 
 
 ___
@@ -202,8 +205,15 @@ ___
 The website was tested with:
 * - __[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)__ 
 * - __[W3C HTML Validation Service](https://validator.w3.org/)__
-### Navigation bar
 
+
+
+| Test Label|  Action | Expected Outcome  | Test Outcome  |
+|---        |---      |---                |---            |
+| Responsiveness of the website  | Checking the site in the lighthouse tool of the built-in Google Chrome browser  | The page will change appearance as the display size changes  | Pass  |
+ Pass through the official (W3C) validator  | Passing HTML and CSS codes through the W3C validator  | Passing the Validator without any error  | Pass| 	|        |   |
+| Check the grammar of the page content  | Using the Grammarly Application to check text  | Text checking and correction of noticed errors  | Pass  |   |
+|   |   |   |   |   |
 ___
 ## **Content**
 

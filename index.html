@@ -42,10 +42,10 @@
         <div class="desktop-nav">
             <div id="navbar">
                 <ul>
-                    <a href="index.html"><li><i class="fas fa-home">Home</i></li></a>
-                    <a href="about.html"><li><i class="far fa-address-card">About</i></li></a>
-                    <a href="timetabel.html"><li><i class="fas fa-table">Timetable</i></li></a>
-                    <a href="contact.html"><li><i class="fas fa-comments">Contact</i></li></a>
+                    <li><a href="index.html"></a><i class="fas fa-home">Home</i></a></li>
+                   <li> <a href="about.html"></a><i class="far fa-address-card">About</i></a></li>
+                    <li><a href="timetabel.html"><i class="fas fa-table">Timetable</i></a></li>
+                    <li><a href="contact.html"></a><i class="fas fa-comments">Contact</i></a></li>
                 </ul>
             </div>
         </div>
@@ -177,14 +177,14 @@
 </footer>
 <script>
     
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+    myFunction()
+};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
-
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
-
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
