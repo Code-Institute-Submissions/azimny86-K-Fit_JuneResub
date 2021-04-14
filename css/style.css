@@ -646,8 +646,10 @@ body {
 /*      Media    */
 
 /* Larger than mobile */
-@media (min-width: 360px) {
+@media (min-width: 320px) {
+body {
 
+}
 .welcome iframe {
   width: 61vw;
   height: 86vw;
@@ -669,10 +671,11 @@ body {
  .slideshow {
    display: none;
  }
- .timetabel {
-  display: none;
-}
+ 
 
+.explanation {
+  min-width: 80%;
+}
  .visit {
      display: none;
  }
@@ -779,6 +782,7 @@ body {
 
 
 /* Larger than desktop */
+
 @media (min-width: 1000px) {
 .welcome iframe {
   width: 80vw;
