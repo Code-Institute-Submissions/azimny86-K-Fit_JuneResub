@@ -290,22 +290,22 @@ body {
       }
       
 .slide:nth-child(1) {
- background-image: url("/images/slides/1.jpg");
+ background-image: url("../images/slides/1.jpg");
  background-repeat: round;
       }
       
 .slide:nth-child(2) {
- background-image: url("/images/slides/2.jpg");
+ background-image: url("../images/slides/2.jpg");
  background-repeat: round;
       }
       
  .slide:nth-child(3) {
- background-image: url("/images/slides/3.jpg");
+ background-image: url("../images/slides/3.jpg");
  background-repeat: round;
       }
       
 .slide:nth-child(4) {
- background-image: url("/images/slides/4.jpg");
+ background-image: url("../images/slides/4.jpg");
  background-repeat: round;
       }
       
@@ -316,22 +316,22 @@ body {
       }
 
 .slide-right:nth-child(1) {
- background-image: url("/images/slides/5.jpg");
+ background-image: url("../images/slides/5.jpg");
  background-repeat: round;
       }
 
 .slide-right:nth-child(2) {
- background-image: url("/images/slides/6.jpg");
+ background-image: url("../images/slides/6.jpg");
  background-repeat: round;
       }
 
 .slide-right:nth-child(3) {
- background-image: url("/images/slides/7.jpg");
+ background-image: url("../images/slides/7.jpg");
  background-repeat: round;
       }
 
       .slide-right:nth-child(4) {
- background-image: url("/images/slides/8.jpg");
+ background-image: url("../images/slides/8.jpg");
  background-repeat: round;
       }
       
