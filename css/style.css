@@ -48,9 +48,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  height: 100vw;
 }
-
+h1 h2{
+  font-family: "Karantina" , cursive;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+}
 /*      NAVBAR      */
 
 /*    Mobile Navbar   */
@@ -133,14 +137,13 @@ body {
   background: #3f3f3f;
 }
 
-/*    But let's hide the middle one.    */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*    Ohyeah and the last one should go the other direction   */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
@@ -168,7 +171,7 @@ body {
   font-size: 22px;
 }
 
-/*    And let's slide it in from the left   */
+/*   slide from left   */
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -333,7 +336,7 @@ body {
  background-repeat: round;
       }
       
-.about-gym {
+.quotation {
  color: #3f3f3f;
  background-color: #fafafa;
  padding-top: 222px;
@@ -344,6 +347,9 @@ body {
  font-size: 26px;
  border: 2px solid #a6178f;
       }
+.quotation p {
+  font-family: 'Orelega One', cursive;
+}
 
  @keyframes slide {
  20% {margin-left: 0px;}
@@ -372,12 +378,10 @@ body {
   padding-left: 10px;
   padding-left: 25px;
   border-radius: 1%;
-  font-family: 'Oswald', sans-serif;
   font-weight: 600;
 }
 
 .welcome h1 {
-  font-family: 'Karantina', sans-serif;
   margin: 10px 0px 50px 25%;
   font-weight: 900;
   text-transform: capitalize;
@@ -399,16 +403,9 @@ body {
   margin-bottom: 133px;
   padding-left: 25px;
   border-radius: 1%;
-  font-family: 'Oswald', sans-serif;
   font-weight: 600;
 }
-.mma-info h1 {
-  font-family: "Karantina" , cursive;
-}
 
-.mma-info p {
-  font-family: 'Roboto', sans-serif;
-}
 
 /*      about us    */
 
@@ -473,7 +470,6 @@ body {
 /*      timetabel    */
 
 .timetabel {
-  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -564,7 +560,6 @@ body {
   text-align: center;
   padding-top: 25px;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
   font-weight: 800;
 }
 
