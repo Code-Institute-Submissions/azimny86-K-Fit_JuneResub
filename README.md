@@ -63,7 +63,13 @@ Design choices were based took from the K-fit logo. I made all my design choices
 <br/>
 
 ## Fonts
-**************************************************************************************************************************
+To find the correct fonts, I visited the  __[Google Fonts](https://fonts.google.com/?query=Or)__  website to find the matching fonts for my design and decided to use these fonts:
+
+* Karantina : I use this font for all of the H1's on the site.
+* Orelega One : This font is only used in the quote between the slideshows.
+* Oswald : This font was use for all paragrafs.
+
+
 ---
 
 <br/>
@@ -213,8 +219,16 @@ The website was tested with:
 | Responsiveness of the website  | Checking the site in the lighthouse tool of the built-in Google Chrome browser  | The page will change appearance as the display size changes  | Pass  |
  Pass through the official (W3C) validator  | Passing HTML and CSS codes through the W3C validator  | Passing the Validator without any error  | Pass| 	|        |   |
 | Check the grammar of the page content  | Using the Grammarly Application to check text  | Text checking and correction of noticed errors  | Pass  |   |
-|   |   |   |   |   |
-___
+
+---
+
+## **Deployment**
+This project was deployed via GitHub by following these steps :
+* Navigate to the repository on github and click Settings.
+* From there, go to the Source section within the Github Pages section.
+* Select master branch on the dropdown menu, and click save.
+* The page will be available at this link __[K-Fit Dojo](https://azimny86.github.io/K-Fit/)__.
+****
 ## **Content**
 
 Pictures are taken from the Facebook page of  __[K-Fit Dojo](https://www.facebook.com/pages/category/Martial-Arts-School/K-FIT-Fitness-Dojo-2118288294883801/)__ . 
@@ -222,4 +236,6 @@ Pictures are taken from the Facebook page of  __[K-Fit Dojo](https://www.faceboo
 Video with interviews with coaches and fighters are taken from Youtube of K-fit Dojo __[K-Fit Dojo](https://www.youtube.com/channel/UCLbXSqImkuPfYEdYyjJwRDw)__.
 
 All of the pictures and interviews are taken with the permission of the owner and Head Coch of K-Fit Dojo.
+
+
 

@@ -540,6 +540,12 @@ p {
   margin-right: 350px;
 }
 
+.map iframe {
+  height: 400px;
+  width: 1500px;
+  margin: 35px 45px;
+}
+
 .map h2 {
     margin-left: 5%;
 }
@@ -701,6 +707,11 @@ p {
 .explanation {
   min-width: 80%;
 }
+.map iframe {
+  height: 400px;
+  width: 400px;
+  margin: 35px 45px;
+}
 .form {
   margin: 0 8vw;
 }
@@ -711,7 +722,7 @@ p {
   margin: 5vw 0;
 }
 .message-box input {
-  margin: 13px 97px 0 97px ;
+  margin: 13px 97px 0 130px ;
 }
 #subject {
   margin: 0 18px;
