@@ -175,7 +175,7 @@ ___
 
 * - __[HTML](https://en.wikipedia.org/wiki/HTML)__ 
 * - __[CSS](https://en.wikipedia.org/wiki/CSS)__ 
-* - __[pica](https://nodeca.github.io/pica/demo/)__ 
+* - __[JavaScript](https://www.javascript.com/)__ 
 
 ___
 
