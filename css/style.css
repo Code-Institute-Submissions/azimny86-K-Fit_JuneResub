@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Orelega+One&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Stint+Ultra+Condensed&display=swap');
 
 /*      colors      */
 
@@ -233,6 +234,15 @@ p {
 #navbar a:hover{
   color: #a6178f;
 }
+
+.desktop-nav span {
+  color:#f2f2f2;
+  font-size: 34px;
+  font-family: 'Anton', sans-serif;
+  float: left;
+  text-shadow: 0 0 10px #f2f2f2, 0 0 20px #f2f2f2, 0 0 30px #f2f2f2, 0 0 40px #a6178f, 0 0 70px #a6178f, 0 0 80px #a6178f, 0 0 100px #a6178f, 0 0 150px #a6178f;
+}
+
 /* Page content */
 .content {
   padding: 16px;
