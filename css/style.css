@@ -701,8 +701,8 @@ p {
 #fighters {
   height: 350px;
   width: 350px;
-  margin: 0  ;
   object-fit: fill;
+  margin: 0 10px;
 }
 .fighters h2 {
   margin: 8px 6vw;
@@ -763,6 +763,9 @@ p {
   margin: 3vw 32vw;
 }
 
+.about {
+  margin: 0 168px;
+}
 
 .call {
  display: none;
@@ -868,6 +871,18 @@ p {
 .mobile-tabel {
   margin: 0 auto;
 }
+
+#fighters {
+  margin: 5px 33vw;
+}
+
+.fighters iframe {
+  margin: 0 6vw;
+}
+.fighters p {
+  margin-left: 5vw;
+}
+
 .visit {
   display: grid;
 }
@@ -895,6 +910,17 @@ display: grid;
 }
 .desktop-tabel {
   display: contents;
+}
+
+#fighters {
+  margin: 5px 765px;
+}
+
+.fighters iframe {
+  margin: 0 165px;
+}
+.fighters p {
+  margin-left: 9vw;
 }
 .visit {
   display: grid;
