@@ -818,6 +818,9 @@ p {
   display: none;
  }
 
+ #subject {
+  margin: 0 74px;
+}
  .visit {
      display: grid;
  }
@@ -922,6 +925,17 @@ display: grid;
 .fighters p {
   margin-left: 9vw;
 }
+
+#subject {
+  margin: 0 136px;
+}
+
+.map iframe {
+  height: 400px;
+  width: 77vw;
+  margin: 34px 35px;
+}
+
 .visit {
   display: grid;
 }
