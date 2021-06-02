@@ -452,7 +452,7 @@ p {
   margin: 0;
 }
 
-#fighters {
+.fighters img {
   height: 400px;
   width: 400px;
   border-radius: 50%;
@@ -698,7 +698,7 @@ p {
 .coach iframe {
   width: 85vw;
 }
-#fighters {
+.fighters img {
   height: 350px;
   width: 350px;
   object-fit: fill;
@@ -875,7 +875,7 @@ p {
   margin: 0 auto;
 }
 
-#fighters {
+.fighters img {
   margin: 5px 33vw;
 }
 
@@ -915,7 +915,7 @@ display: grid;
   display: contents;
 }
 
-#fighters {
+.fighters img {
   margin: 5px 765px;
 }
 
