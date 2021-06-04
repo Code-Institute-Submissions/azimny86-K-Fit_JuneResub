@@ -228,10 +228,20 @@ The website was tested with:
 * move the script from outside a body section to inside body,
 * remove a frameborder from all youtube links,
 
-
+**Index**
+![Index report](images/wireframes/IndexValidatorRaport.png)
+**About**
+![About report](images/wireframes/AboutValidatorRaport.png)
+**Timetabel**
+![Timetabel report](images/wireframes/TimetabelValidatorRaport.png)
+**Contact**
+![Contact report](images/wireframes/ContactValidatorRaport.png)
 
 ### **Bugs find using W3C CSS validator**
 * No errors found, 
+
+![CSS report](images/wireframes/CSSValidatorRaport.png)
+
 
 ### **UX bugs**
 * pictures on the website about off-center,
