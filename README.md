@@ -222,12 +222,39 @@ The website was tested with:
 
 ---
 
+### **Bugs find using W3C HTML validator**
+* Error with empty heading on slideshow replace h1 with p,
+* remove thead from timetable headers for mobile devices,
+* move the script from outside a body section to inside body,
+* remove a frameborder from all youtube links,
+
+
+
+### **Bugs find using W3C CSS validator**
+* No errors found, 
+
+### **UX bugs**
+* pictures on the website about off-center,
+* Add the name of the page to the navbar as a link to the home page,
+* changing a maps size on contact page 
+---
+
 ## **Deployment**
+This project was made on Gitpod and Github. I create a new repository on GitHub and wrote the code on Gitpod workspace.  I tried to add regular code changes and push them to GitHub so that my work would be saved in the repository.
+
 This project was deployed via GitHub by following these steps :
 * Navigate to the repository on github and click Settings.
 * From there, go to the Source section within the Github Pages section.
 * Select master branch on the dropdown menu, and click save.
+* Make sure to refresh your page to confirm that the deployment is done
 * The page will be available at this link __[K-Fit Dojo](https://azimny86.github.io/K-Fit/)__.
+
+If  you want to run the project locally you should 
+* Log in to Github and open the repository that you wanted to deploy
+* Click on the repository then press the button code
+* There you will find Clone and Download ZIP
+* Open your preferred integrated development environment (IDE)
+* Run your local server
 ****
 ## **Content**
 
